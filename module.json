@@ -1,0 +1,20 @@
+{
+    "name": "school-library",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.library",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "school.people"
+    ],
+    "exposes": [
+        "Plugins\\SchoolLibrary\\API\\Contracts\\SchoolLibraryContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Library catalogue, loans, librarians, digital book pages and library fees.",
+    "config": []
+}

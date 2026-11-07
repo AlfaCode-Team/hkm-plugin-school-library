@@ -1,0 +1,24 @@
+{
+    "name": "alfacode-team/hkm-plugin-school-library",
+    "description": "Library catalogue, loans, librarians, digital book pages and library fees.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\SchoolLibrary\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plugins\\SchoolLibrary\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
